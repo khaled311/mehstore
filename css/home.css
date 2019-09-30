@@ -1137,6 +1137,12 @@ html[dir="ltr"] .navBar > ul > li:not(:last-child) {
   font-family: "frtBold";
   text-align: center;
   margin-top: 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.categories .title:hover {
+  color: #FEC918;
 }
 
 .categories .owl-nav {
