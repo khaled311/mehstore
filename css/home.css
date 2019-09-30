@@ -1111,14 +1111,14 @@ html[dir="ltr"] .navBar > ul > li:not(:last-child) {
 
 .categories .pic:after {
   left: -100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(254, 201, 24, 0.1)), to(transparent));
-  background-image: linear-gradient(to right, rgba(254, 201, 24, 0.1), transparent);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(transparent));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), transparent);
 }
 
 .categories .pic:before {
   right: -100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(rgba(254, 201, 24, 0.1)));
-  background-image: linear-gradient(to right, transparent, rgba(254, 201, 24, 0.1));
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(rgba(255, 255, 255, 0.1)));
+  background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.1));
 }
 
 .categories .pic:hover:after {
