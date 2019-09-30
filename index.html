@@ -9,13 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap3-rtl.min.css"/>
     <link rel="stylesheet" href="css/fontAwesome.css"/>
     <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/aos.css"/>
     <link rel="stylesheet" href="css/home.css"/>
   </head>
   <body>
-    <!-- Preloader-->
-    <div class="preloader">
-      <div class="spinner"></div>
-    </div>
     <!-- Mob Nav-->
     <div class="menuTriger"><i class="fas fa-bars"></i></div>
     <div class="navover"></div>
@@ -100,7 +97,7 @@
     </div>
     <!-- Navbar-->
     <!-- Main Slider-->
-    <div class="main-slider">
+    <div class="main-slider" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
         <div class="owl-carousel owl-theme">
           <div class="item"><a href="#"><img class="img-responsive" src="images/slider.jpg" alt=""/></a></div>
@@ -111,7 +108,7 @@
     </div>
     <!-- Main Slider-->
     <!-- Categories-->
-    <div class="categories">
+    <div class="categories" data-aos="fade-down" data-aos-duration="1000">
       <div class="container">
         <div class="owl-carousel owl-theme">
           <div class="item"><a href="#">
@@ -131,7 +128,7 @@
     </div>
     <!-- Categories-->
     <!-- Products-->
-    <div class="disc custom">
+    <div class="disc custom" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
         <div class="disc-head">
           <p>العروض</p><a href="#!">عرض الكل</a>
@@ -172,17 +169,17 @@
     </div>
     <!-- Products-->
     <!-- Banners-->
-    <div class="banners">
+    <div class="banners" data-aos="zoom-in" data-aos-duration="1000">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6"><a href="#!"><img class="img-responsive" src="images/banner1.jpg" alt=""/></a></div>
-          <div class="col-sm-6"><a href="#!"><img class="img-responsive" src="images/banner2.jpg" alt=""/></a></div>
+          <div class="col-sm-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#!"><img class="img-responsive" src="images/banner1.jpg" alt=""/></a></div>
+          <div class="col-sm-6" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"><a href="#!"><img class="img-responsive" src="images/banner2.jpg" alt=""/></a></div>
         </div>
       </div>
     </div>
     <!-- Banners-->
     <!-- Products-->
-    <div class="disc custom">
+    <div class="disc custom" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
         <div class="disc-head">
           <p>وصل حديثاً</p><a href="#!">عرض الكل</a>
@@ -311,6 +308,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

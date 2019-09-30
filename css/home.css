@@ -1144,29 +1144,28 @@ html[dir="ltr"] .navBar > ul > li:not(:last-child) {
   top: 40%;
 }
 
-.categories .owl-nav button:hover span {
-  border: 1px solid #FEC918;
-}
-
-.categories .owl-nav button.owl-prev span {
-  border-left: 0;
-  border-bottom: 0;
-}
-
-.categories .owl-nav button.owl-next span {
-  border-right: 0;
-  border-top: 0;
-}
-
-.categories .owl-nav button span {
-  display: block;
+.categories .owl-nav button {
   width: 15px;
   height: 15px;
-  border: 1px solid #CFCFCF;
+  border: 1px solid #CFCFCF !important;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   -webkit-transition: .5s;
   transition: .5s;
+}
+
+.categories .owl-nav button:hover {
+  border: 1px solid #50332C !important;
+}
+
+.categories .owl-nav button.owl-prev {
+  border-left: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.categories .owl-nav button.owl-next {
+  border-right: 0 !important;
+  border-top: 0 !important;
 }
 
 .categories .owl-dots {

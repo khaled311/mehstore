@@ -140,4 +140,7 @@ $(function() {
     });
   });
 
+  // Animation On Scroll
+  AOS.init();
+
 })
