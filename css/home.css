@@ -861,7 +861,7 @@ html[dir="ltr"] .head .menu > div.user .drop {
 }
 
 .navBar {
-  background-color: #50332C;
+  background-color: #4F322C;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1411,7 +1411,7 @@ html[dir="ltr"] .product .top {
 
 .product .pro-title {
   font-size: 14px;
-  color: #50332C;
+  color: #50332d;
   -webkit-transition: .5s;
   transition: .5s;
 }
